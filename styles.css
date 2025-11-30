@@ -1,0 +1,60 @@
+  #Content{
+            background-image: url("../WebImages/BlogImages/vecteezy_gear-wheel-or-cog-back-ground-mechanism-back-ground-there_35393963.JPG");
+            background-size:cover;
+            z-index:0;
+            margin:0;
+        }
+        #Text{
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            border-width: 10px;
+            margin: 20px;
+        }
+        #Top{
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0);
+            color: rgb(255, 255, 255);
+            font-size: 36px;
+        }
+         #Links{
+            background-color: rgba(200, 200, 200, 0.7);
+            padding: 20px; 
+            border-radius:8px;
+            border-width:5px;
+            margin:20px;
+            /*Aryan's Code */
+            background-color: #111;
+            color: rgba(226, 9, 9, 0.629);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 2;
+        }
+         /* link color inside #Links: not nested to keep valid CSS */
+         #Links a {
+            color: rgba(255, 255, 255, 0.733); /* blue, fully opaque */
+            text-decoration: none;
+         }
+         #main-content{
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            border-width: 10px;
+            margin: 20px;
+         }
+         #Blogborders{
+            border: 5px inset rgb(2, 2, 2);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+         }
+         #meImage{
+            float:left;
+            margin: 40px 20px 20px 0px;
+         }
+      
